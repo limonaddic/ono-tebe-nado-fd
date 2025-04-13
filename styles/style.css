@@ -2,11 +2,17 @@ html {
     scroll-behavior: smooth;
 }
 
+.white {
+    background-color: #fff;
+}
+
 .header {
     padding: 92px 50px 96px;
     width: 100%;
     height: 293px; 
-
+    display: grid;
+    grid-template-columns: 1fr min-content 1fr;
+    align-items: center;
 }
 
 .cover {
@@ -37,14 +43,6 @@ html {
     height: 180px;
 }
 
-.description {
-
-}
-
-.white {
-    background-color: #fff;
-}
-
 .first-lot {
     background-image: url(../images/card-lot-01.jpg);
     background-size: cover;
@@ -58,5 +56,26 @@ html {
 .third-lot {
     background-image: url(../images/card-lot-03.jpg);
     background-size: cover;
+}
+
+.header-address {
+    width: 240px;
+}
+
+.logo-black {
+    display: block;
+    width: 148px;
+    height: 105px;
+}
+
+.header-menu {
+    display: flex;
+    gap: 24px;
+    list-style-type: circle;
+}
+
+.main-menu-item a {
+    list-style-type: none;
+    text-decoration: none;
 }
 

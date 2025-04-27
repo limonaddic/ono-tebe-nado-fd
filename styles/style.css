@@ -6,12 +6,11 @@ html {
     background-color: #fff;
 }
 
-.cover {
-    padding: 165px 50px 50px;
-    background-image: url(../images/cover.jpg);
-    background-size: cover;
-    width: 100%;
-    height: 757px; 
+.overlay {
+    background-color: #00000060;
+    position: absolute;
+    inset: 0; /*расположила элемент в левом верхнем углу*/
+    z-index: 0;
 }
 
 .lots {

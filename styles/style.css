@@ -10,7 +10,7 @@ html {
     background-color: black;
     opacity: 60%;
     position: absolute;
-    inset: 0; /*расположила элемент в левом верхнем углу*/
+    inset: 0;
     z-index: 0;
 }
 

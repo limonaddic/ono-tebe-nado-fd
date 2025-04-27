@@ -6,15 +6,6 @@ html {
     background-color: #fff;
 }
 
-.header {
-    padding: 92px 50px 96px;
-    width: 100%;
-    height: 293px; 
-    display: grid;
-    grid-template-columns: 1fr min-content 1fr;
-    align-items: center;
-}
-
 .cover {
     padding: 165px 50px 50px;
     background-image: url(../images/cover.jpg);
@@ -57,25 +48,3 @@ html {
     background-image: url(../images/card-lot-03.jpg);
     background-size: cover;
 }
-
-.header-address {
-    width: 240px;
-}
-
-.logo-black {
-    display: block;
-    width: 148px;
-    height: 105px;
-}
-
-.header-menu {
-    display: flex;
-    gap: 24px;
-    list-style-type: circle;
-}
-
-.main-menu-item a {
-    list-style-type: none;
-    text-decoration: none;
-}
-

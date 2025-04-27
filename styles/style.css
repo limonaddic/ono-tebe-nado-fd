@@ -7,17 +7,11 @@ html {
 }
 
 .overlay {
-    background-color: #00000060;
+    background-color: black;
+    opacity: 60%;
     position: absolute;
     inset: 0; /*расположила элемент в левом верхнем углу*/
     z-index: 0;
-}
-
-.lots {
-    margin: 180px 24px 120px;
-    width: 1052px;
-    height: 723px;
-
 }
 
 .about {
@@ -33,17 +27,3 @@ html {
     height: 180px;
 }
 
-.first-lot {
-    background-image: url(../images/card-lot-01.jpg);
-    background-size: cover;
-}
-
-.second-lot {
-    background-image: url(../images/card-lot-02.jpg);
-    background-size: cover;
-}
-
-.third-lot {
-    background-image: url(../images/card-lot-03.jpg);
-    background-size: cover;
-}

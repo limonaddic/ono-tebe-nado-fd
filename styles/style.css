@@ -23,7 +23,7 @@ html {
 }
 
 .header {
-    padding: 92px 50px 96px;
+    padding: 90px 44px 92px;
     width: 100%;
     display: grid;
     grid-template-columns: 1fr min-content 1fr;
@@ -32,7 +32,7 @@ html {
 
 .header__links-list {
     display: flex;
-    gap: 24px;
+    gap: 27px;
     list-style-type: circle;
 }
 
@@ -52,6 +52,7 @@ html {
     text-decoration-thickness: auto;
     text-underline-offset: 1px;
     text-underline-position: from-font;
+    padding-left: 7px;
 }
 
 .header__link-active {
@@ -61,11 +62,10 @@ html {
 
 .header__logo {
     display: block;
-    width: 148px;
-    height: 105px;
+    width: 140px;
 }
 
-.address a {
+.address {
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
@@ -75,6 +75,8 @@ html {
 }
 
 .address__link {
+    display: inline-block;
+    width: 100%;
     text-decoration: none;
     text-decoration-line: underline;
     text-decoration-style: solid;
@@ -85,8 +87,10 @@ html {
 }
 
 .header__address {
-    width: 240px;
+    width: 246px;
     justify-self: end;
+    align-self: flex-start;
+    padding-top: 6px;
 }
 
 .cover {
@@ -113,7 +117,9 @@ h1 {
     gap: 20px;
     color: white;
     font-size: 100px;
+    font-style: normal;
     font-weight: 700;
+    line-height: 115%;
     letter-spacing: 30px;
     text-transform: uppercase;
 }
@@ -125,10 +131,15 @@ h1 {
 
 .aligned-text_center {
     align-self: center;
+    padding-left: 30px;
 }
 
 .aligned-text_right {
     align-self: flex-end;
+}
+
+.no-letter-spacing {
+    letter-spacing: 0;
 }
 
 .cover__description {
@@ -147,7 +158,7 @@ h1 {
     font-weight: 400;
     line-height: 127.273%;
     text-transform: uppercase;
-    word-spacing: 230%;
+    word-spacing: 330%;
 }
 
 .bet-button {
@@ -163,7 +174,7 @@ h1 {
 }
 
 .lots {
-    margin: 180px 24px 120px;
+    margin: 184px 24px 120px;
     width: 1052px;
 }
 
@@ -235,6 +246,10 @@ h1 {
     padding-left: 40px;
     padding-top: 30px;
     display: inline-block;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
     text-decoration-line: underline;
     text-decoration-style: solid;
     text-decoration-skip-ink: none;
@@ -271,7 +286,7 @@ h1 {
 }
 
 .about__all-text {
-    padding-top: 101px;
+    padding-top: 106px;
 }
 
 .about__text {
@@ -286,7 +301,7 @@ h1 {
 }
 
 .footer {
-    padding: 0 50px 82px;
+    padding: 4px 50px 82px;
     width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -301,6 +316,10 @@ h1 {
 }
 
 .footer__menu-link {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
     text-decoration-line: underline;
     text-decoration-style: solid;
     text-decoration-skip-ink: none;
@@ -316,7 +335,8 @@ h1 {
 .footer__social-list {
     list-style-type: none;
     display: flex;
-    justify-content: space-around;
+    gap: 48px;
+    justify-self: end;
 }
 
 .footer__social-icon {
